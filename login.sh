@@ -27,11 +27,11 @@ cd TermuxLock
 python3 motd1.py
 echo
 espeak -v en+whisper -s 155 -p 99 " Enter your.. username."
-read -p \$'\e[1:31m⟩ USERNAME ⟩\033[34m ' user
+read -p \$'\e[1;31m ⟩ USERNAME ⟩\033[34m ' user
 echo
 espeak -v en+whisper -s 155 -p 99 " Enter your.. passwod."
 echo
-read -s -p \$'\e[1:31mPASSWORD ⟩\033[34m ' pass
+read -s -p \$'\e[1;31m ⟩ PASSWORD ⟩\033[34m ' pass
 
 if [[ \$pass == $password && \$user == $username ]]; then
     
