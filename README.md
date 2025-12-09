@@ -13,6 +13,7 @@ now give permission to the bash scripts
 chmod +x dependency.sh
 chmod +x logos.sh
 chmod +x auto_update.sh
+chmod +x signup.sh
 ```
 then run dependency.sh( this will download all the tools needed)
 ```
