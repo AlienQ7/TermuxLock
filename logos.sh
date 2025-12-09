@@ -1,5 +1,5 @@
 #!/bin/bash
-sign () {
+signup () {
 clear
 echo -e ""
 echo -e ""
@@ -50,4 +50,4 @@ echo -e "\033[31m\033[1m
 
 
 }
-sign
+signup
